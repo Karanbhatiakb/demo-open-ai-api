@@ -1,7 +1,7 @@
 import os
 import openai
 
-openai.api_key = "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"
+openai.api_key = "<apikey>"
 
 user_input = input("Write your query here: ")
 response = response = openai.Completion.create(
